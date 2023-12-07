@@ -1,8 +1,17 @@
-import sys
+#Advent of Code 2023: Day 2 Part 2 solution
+#Author: Pranay Kotian
+
+import os
+
+#Input text modified:
+# "Game " removed from beginning of each line
+# Semicolons (;) replaced with commas (,) since individual subsets were irrelevant
+here = os.path.dirname(os.path.abspath(__file__))
+with open(here + "/text2.txt") as file:
+    lines = file.readlines()
 
 total = 0
-for i in range(100):
-  name = sys.stdin.readline()
+for name in lines:
   namesplit = name.split(":")
   
   ID = int(namesplit[0])

@@ -1,8 +1,11 @@
 #Advent of Code 2023: Day 1 Part 2 solution
 #Author: Pranay Kotian
 
+import os
+
 #Input text not modified
-with open("Day1/text1.txt") as file:
+here = os.path.dirname(os.path.abspath(__file__))
+with open(here + "/text1.txt") as file:
     lines = file.readlines()
 
 numbers = {
