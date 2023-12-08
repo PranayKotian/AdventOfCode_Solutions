@@ -5,6 +5,7 @@ My solutions to the advent of code 2023 problems. Will also post past year solut
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+  7   01:02:57   7122      0   01:11:18   4775      0
   6   00:09:17   2322      0   00:24:49   5944      0
   5   00:38:36   4548      0   01:47:40   3780      0
   4   00:45:57  12703      0   01:35:46  12655      0
