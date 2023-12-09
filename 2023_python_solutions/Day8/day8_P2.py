@@ -1,4 +1,4 @@
-#Advent of Code 2023: Day 8 Part 1 solution
+#Advent of Code 2023: Day 8 Part 2 solution
 #Author: Pranay Kotian
 
 import os
@@ -39,3 +39,4 @@ for idx, start in enumerate(starts):
             break
 
 print(minmoves)
+#Calculate the LCM of these moves
